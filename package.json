@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx tsm ./src/app.ts",
-    "prodStart": "pm2 start ecosystem.config.cjs",
+    "prodStart": "pm2 start ecosystem.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
